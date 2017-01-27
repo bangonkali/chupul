@@ -1,6 +1,6 @@
 ﻿namespace Chupul
 {
-    partial class Form1
+    partial class ConfigurationManager
     {
         /// <summary>
         /// Required designer variable.
@@ -28,9 +28,18 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.SuspendLayout();
+            // 
+            // ConfigurationManager
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(370, 226);
+            this.Name = "ConfigurationManager";
             this.Text = "Form1";
+            this.Shown += new System.EventHandler(this.ConfigurationManager_Shown);
+            this.ResumeLayout(false);
+
         }
 
         #endregion
